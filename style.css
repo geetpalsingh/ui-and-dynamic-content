@@ -1,0 +1,91 @@
+*{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+
+    color: #E8D1B3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-top: 1rem;
+}
+
+body{
+    
+    max-width: 45rem;
+    border: 1px solid black;
+    margin: auto;
+}
+
+i{
+    color: black;
+}
+
+.content{
+    background-image: url(https://images.unsplash.com/photo-1528459061998-56fd57ad86e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=740&q=80);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    /* text-align: center; */
+    height: 100vh;
+    padding: 2rem;
+    
+}
+
+.content i{
+    font-size: 4rem;
+    color: #E8D1B3;
+    display: block;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#entry{
+    
+    padding: 0.5rem;
+    color: black;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+#btn{
+    color: black;
+    background-color: #A5C3E1;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+ul{
+    margin-left: 1rem;
+}
+
+hr{
+    margin: 0.75rem;
+    border: 0.5px solid grey;
+}
+
+.socials{
+    display: flex;
+
+}
+.socials i{
+    font-size: 2rem;
+    color: #A5C3E1;
+}
